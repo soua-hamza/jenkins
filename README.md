@@ -51,7 +51,7 @@ source ~/.bash_profile
 curl https://upload.diawi.com/ -F token='jhInx69gA2fOGV00y0PpD0ym7A6QgUx60uv1AOLIjc' \
 -F file=@${WORKSPACE}/IPA/JenkinsSimplePocProject_Build_${BUILD_NUMBER}/JenkinsSimplePocProject.ipa \
 -F comment='uploaded by jenkins' \
--F callback_emails='sah@mobilepowered.fr','all.qa@mobilepowered.fr'
+-F callback_emails='email@email.fr@email@email.fr.fr','email@email.fr@email@email.fr.fr'
 
 ------------------------------------
 
@@ -74,8 +74,8 @@ source ~/.bash_profile
 #echo "share google drive folder"
 
 #get new access token https://help.talend.com/reader/Ovc10QFckCdvYbzxTECexA/EoAKa_oFqZFXH0aE0wNbHQ
-#/usr/local/Cellar/gdrive/2.1.0/bin/gdrive share $6 --type user --email sah@mobilepowered.fr
-#/usr/local/Cellar/gdrive/2.1.0/bin/gdrive share $6 --type user --email all.qa@mobilepowered.fr
-#/usr/local/Cellar/gdrive/2.1.0/bin/gdrive share $6 --type user --email dsh@mobilepowered.fr
+#/usr/local/Cellar/gdrive/2.1.0/bin/gdrive share $6 --type user --email email@email.fr
+#/usr/local/Cellar/gdrive/2.1.0/bin/gdrive share $6 --type user --email email.qa@email.fr
+#/usr/local/Cellar/gdrive/2.1.0/bin/gdrive share $6 --type user --email email@email.fr
 
 
